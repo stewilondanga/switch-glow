@@ -110,10 +110,11 @@ body {
   user-select: none;
 }
 
-/*.a-neonToggle:checked ~ .m-switch .a-switch {
+.a-neonToggle:checked~.m-switch .a-switch {
   background-color: #d33;
 }
-.a-switch.-on {
+
+/*.a-switch.-on {
   -webkit-transform-origin: bottom center;
           transform-origin: bottom center;
   -webkit-transform: scaleY(0.7);
