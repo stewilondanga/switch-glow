@@ -34,13 +34,14 @@ body {
   text-align: center;
 }
 
-/*.a-neonText {
+.a-neonText {
   font-size: 15vw;
   color: rgba(255, 255, 255, 0.5);
   text-shadow: 0 0 0.5rem #000, 0 0.7rem 0.5rem #000;
   text-align: center;
 }
-@media screen and (min-width: 800px) {
+
+/*@media screen and (min-width: 800px) {
   .a-neonText {
     font-size: 8rem;
   }
