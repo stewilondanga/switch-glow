@@ -56,15 +56,16 @@ body {
   anition-duration: 7.5s;
 }
 
-/*.a-neonToggle:checked ~ .a-neonText.-frame {
+.a-neonToggle:checked~.a-neonText.-frame {
   -webkit-animation-name: flickering-lime;
-          animation-name: flickering-lime;
+  animation-name: flickering-lime;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-duration: 5s;
-          ani/*mation-duration: 5s;
+  animation-duration: 5s;
 }
-.a-neonToggle:checked ~ .a-neonText.-frame:first-of-type {
+
+/*.a-neonToggle:checked ~ .a-neonText.-frame:first-of-type {
   -webkit-animation-duration: 7s;
           animation-duration: 7s;
 }
