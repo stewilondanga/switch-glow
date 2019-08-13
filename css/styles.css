@@ -74,7 +74,7 @@ body {
   display: none;
 }
 
-/*.m-switch {
+.m-switch {
   cursor: pointer;
   display: inline-block;
   margin: auto;
@@ -83,7 +83,8 @@ body {
   box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.4), 0 0.5rem 0.25rem rgba(0, 0, 0, 0.4);
   background: #400000 linear-gradient(to top, #f77 0, #f55 15%, #f00 15%, #f00 85%, rgba(0, 0, 0, 0.2) 85%, rgba(0, 0, 0, 0.3) 100%) no-repeat scroll center/100% 100%;
 }
-.m-switch__part {
+
+/*.m-switch__part {
   transition: all .1s ease-in-out 0s;
 }
 .a-neonToggle:checked ~ .m-switch .m-switch__part {
