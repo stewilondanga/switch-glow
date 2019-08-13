@@ -17,8 +17,8 @@ body {
 
 .my_social {
   position: absolute;
-  top: 25px;
-  left: 25px;
+  top: 15px;
+  left: 925px;
 }
 
 .my_social a {
@@ -43,7 +43,7 @@ body {
 
 @media screen and (min-width: 800px) {
   .a-neonText {
-    font-size: 8rem;
+    font-size: 5rem;
   }
 }
 
