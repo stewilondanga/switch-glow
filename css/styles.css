@@ -121,11 +121,12 @@ body {
   transform: scaleY(0.7);
 }
 
-/*.a-neonToggle:checked ~ .m-switch .a-switch.-on {
+.a-neonToggle:checked~.m-switch .a-switch.-on {
   -webkit-transform: scaleY(1);
-          transform: scaleY(1);
+  transform: scaleY(1);
 }
-.a-switch.-off {
+
+/*.a-switch.-off {
   -webkit-transform-origin: top center;
           transform-origin: top center;
   -webkit-transform: scaleY(1);
