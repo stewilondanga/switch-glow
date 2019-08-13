@@ -35,7 +35,7 @@ body {
 }
 
 .a-neonText {
-  font-size: 8vw;
+  font-size: 5vw;
   color: rgba(255, 255, 255, 0.5);
   text-shadow: 0 0 0.5rem #000, 0 0.7rem 0.5rem #000;
   text-align: center;
@@ -65,12 +65,12 @@ body {
   animation-duration: 5s;
 }
 
-/*.a-neonToggle:checked ~ .a-neonText.-frame:first-of-type {
+.a-neonToggle:checked~.a-neonText.-frame:first-of-type {
   -webkit-animation-duration: 7s;
-          animation-duration: 7s;
+  animation-duration: 7s;
 }
 
-.a-neonToggle {
+/*.a-neonToggle {
   display: none;
 }
 
