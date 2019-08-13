@@ -70,11 +70,11 @@ body {
   animation-duration: 7s;
 }
 
-/*.a-neonToggle {
+.a-neonToggle {
   display: none;
 }
 
-.m-switch {
+/*.m-switch {
   cursor: pointer;
   display: inline-block;
   margin: auto;
