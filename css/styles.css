@@ -114,13 +114,14 @@ body {
   background-color: #d33;
 }
 
-/*.a-switch.-on {
+.a-switch.-on {
   -webkit-transform-origin: bottom center;
-          transform-origin: bottom center;
+  transform-origin: bottom center;
   -webkit-transform: scaleY(0.7);
-          transform: scaleY(0.7);
+  transform: scaleY(0.7);
 }
-.a-neonToggle:checked ~ .m-switch .a-switch.-on {
+
+/*.a-neonToggle:checked ~ .m-switch .a-switch.-on {
   -webkit-transform: scaleY(1);
           transform: scaleY(1);
 }
