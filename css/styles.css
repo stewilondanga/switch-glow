@@ -133,12 +133,12 @@ body {
   transform: scaleY(1);
 }
 
-/*.a-neonToggle:checked ~ .m-switch .a-switch.-off {
+.a-neonToggle:checked~.m-switch .a-switch.-off {
   -webkit-transform: scaleY(0.7);
-          transform: scaleY(0.7);
+  transform: scaleY(0.7);
 }
 
-.a-overlay {
+/*.a-overlay {
   position: fixed;
   top: 0;
   bottom: 0;
