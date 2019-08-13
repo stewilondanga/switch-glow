@@ -41,12 +41,13 @@ body {
   text-align: center;
 }
 
-/*@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) {
   .a-neonText {
     font-size: 8rem;
   }
 }
-.a-neonToggle:checked ~ .a-neonText.-main {
+
+/*.a-neonToggle:checked ~ .a-neonText.-main {
   -webkit-animation-name: flickering-red;
           animation-name: flickering-red;
   -webkit-animation-iteration-count: infinite;
