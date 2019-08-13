@@ -193,26 +193,29 @@ body {
   }
 }
 
-/*@-webkit-keyframes flickering-lime {
+@-webkit-keyframes flickering-lime {
+
   0%,
-    14%,
-    14.2%,
-    49.6%,
-    51%,
-    52%,
-    52.2%,
-    100% {
+  14%,
+  14.2%,
+  49.6%,
+  51%,
+  52%,
+  52.2%,
+  100% {
     color: rgba(255, 255, 255, 0.8);
     text-shadow: 0 0 0.25rem lime, 0 0 0.25rem lime, 0 0 5rem lime, 0 0 0.5rem lime, 0 0 50rem lime;
   }
+
   14.1%,
-    49.7%,
-    52.1% {
+  49.7%,
+  52.1% {
     color: rgba(255, 255, 255, 0.5);
     text-shadow: 0 0 0.5rem #000, 0 0.7rem 0.5rem #000;
   }
 }
-@keyframes flickering-lime {
+
+/*@keyframes flickering-lime {
   0%,
     14%,
     14.2%,
